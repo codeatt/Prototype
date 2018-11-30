@@ -45,4 +45,13 @@ div.item {
     });
   });
   </script>
+
+  <!-- No PHP você faz um foreach no POST[produtoId] para fazer o insert na base
+
+foreach ($_POST['produtoId'] as $key=> $value){
+    echo $value; // Id do produto
+    echo $_POST['quant'][$key]; // Quantidade
+}
+
+Isto evitaria as manipulações nos id's dos input's, reduzindo seu código jQuery e de certa forma simplificando o insert com PHP. -->
 </html>
