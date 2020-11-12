@@ -1,2 +1,2 @@
 # Prototype
-Protótipo funcional do software de gestão de eventos - Gerando um pedido
+Protótipo da função de gerar um pedido
